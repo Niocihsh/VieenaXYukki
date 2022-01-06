@@ -5,7 +5,7 @@ import requests
 from pyrogram import Client
 from Music.MusicUtilities.helpers.filters import command
 
-@Client.on_message(command(["asupan"]))
+@Client.on_message(command(["owner"]))
 async def asupan(client, message):
     message.from_user.id
     message.from_user.first_name
@@ -21,10 +21,10 @@ async def asupan(client, message):
             message.chat.id, video=results, caption=f"This the sexy video bro {rpk}"
         )
     except Exception:
-        await message.reply_text("❌ There is something wrong...")
+        await message.reply_text("He is broken 😕...")
 
 
-@Client.on_message(command(["wibu"]))
+@Client.on_message(command(["danger1808"]))
 async def wibu(client, message):
     message.from_user.id
     message.from_user.first_name
@@ -40,10 +40,10 @@ async def wibu(client, message):
             message.chat.id, video=results, caption=f"This is the real wibu bro {rpk}"
         )
     except Exception:
-        await message.reply_text("❌ There is something wrong...")
+        await message.reply_text("you are my love...")
 
 
-@Client.on_message(command(["chika"]))
+@Client.on_message(command(["baby"]))
 async def chika(client, message):
     message.from_user.id
     message.from_user.first_name
